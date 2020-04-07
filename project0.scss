@@ -26,7 +26,7 @@ h1 {
 }
 
 h1::before {
-	content: "\1F341"; //1F342 //1F33C
+	content: "\1F341"; //1F342 //1F33C  //2744
 	padding-right: 20px;
 }
 
@@ -34,6 +34,7 @@ h2::before {
 	content: "\1F343";
 	padding-right: 5px;
 }
+
 h2::before {	
 	content: "\1F343";
 	padding-right: 5px;
@@ -71,7 +72,6 @@ h2::before {
 	height: 100%;
 }
 
-
 /*
 ul {
     font-size: 14px;
@@ -91,7 +91,6 @@ ol {
 	// margin-left:25%;
 }
 */
-
 
 ul.menuVertical {
   list-style-type: none;
@@ -126,7 +125,6 @@ li a:hover:not(.active) {
   text-shadow: 2px 2px 4px black;
   text-decoration: none;
 }
-
 
 /*
 ul.menuVertical {
@@ -216,4 +214,26 @@ tr:nth-child(even) {
 
 .spanIt {
 	font-style: italic;
+}
+
+.linkVolver {
+	margin-top: 50px;
+	display: block;
+}
+
+.linkVolver::after {
+	content: "\2934";
+	padding-left: 5px;
+}
+
+@media (min-width: 992px) {
+	.linkVolver {
+		display: none;
+	}
+}
+
+@media (max-width: 991) {
+	.linkVolver {
+		display: block;
+	}
 }
