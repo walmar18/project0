@@ -20,16 +20,13 @@ h1 {
 h1::before {
   content: "🍁";
   padding-right: 20px;
+  color: #d23838;
 }
 
 h2::before {
   content: "🍃";
   padding-right: 5px;
-}
-
-h2::before {
-  content: "🍃";
-  padding-right: 5px;
+  color: #d23838;
 }
 
 .mainform {

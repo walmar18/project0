@@ -28,16 +28,13 @@ h1 {
 h1::before {
 	content: "\1F341"; //1F342 //1F33C  //2744
 	padding-right: 20px;
+	color: $color;
 }
 
 h2::before {	
 	content: "\1F343";
 	padding-right: 5px;
-}
-
-h2::before {	
-	content: "\1F343";
-	padding-right: 5px;
+	color: $color;
 }
 
 .mainform {
@@ -55,7 +52,7 @@ h2::before {
 			font-weight: normal;
 		}
 
-		list-style-type: "\1F342   "; 
+		list-style-type: "\1F342   "; // none;
 	}
 	ol {
 		font-weight: bold;
@@ -65,6 +62,15 @@ h2::before {
 		}
 	}
 }
+
+// .body_txt ul > li::before {
+// 	content: "\1F342   ";
+// 	color: $color;
+// 	font-weight: bold;
+// 	display: inline-block; 
+// 	width: 1em;
+// 	margin-left: -1em;
+// }
 
 .content {
 	margin-left: 25%;
