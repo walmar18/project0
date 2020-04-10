@@ -16,13 +16,11 @@ nav {
 	position: fixed;
 	overflow: auto;
 	margin-top: 250px;
-	//margin: 200px 1.5% 1.5% 1.5%;
 }
 
 h1 {
 	text-align: center;
 	color: Black;
-	// font-family: 'Times New Roman', Times, serif;
 }
 
 h1::before {
@@ -78,26 +76,6 @@ h2::before {
 	height: 100%;
 }
 
-/*
-ul {
-    font-size: 14px;
-    color: $color2;
-	font-style: normal;
-}
-
-ol {
-	font-style: normal;
-    font-size: 18px;
-    color: $color2;
-}
-
-.flotante {
-	align: center;
-	// float: right;
-	// margin-left:25%;
-}
-*/
-
 ul.menuVertical {
   list-style-type: none;
   margin: 0;
@@ -132,23 +110,6 @@ li a:hover:not(.active) {
   text-decoration: none;
 }
 
-/*
-ul.menuVertical {
-	width: 220px; 
-	list-style: none;
-	text-align: center; 
-	text-shadow: 2px 2px 4px red; 
-	padding:0;
-}
-
-ul.menuVertical li {padding: 10px 0px; border: groove $fondo2;
-border-width: 6px 6px 0px 6px; background-color: $color;}
-
-ul.menuVertical li:last-child { border-bottom: groove $fondo2; border-bottom-width: 6px;}
-ul.menuVertical li a:link, ul.menuVertical li a:visited { text-decoration: none; color:black;}
-ul.menuVertical li:hover {background-color: $colorhover;}
-*/
-
 table {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	border-collapse: collapse;
@@ -177,20 +138,12 @@ tr:nth-child(even) {
 
 .row {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
- 	//padding: 20px;
- 	//background-color: $fondo2;
-	//border: 1px solid black;	
 }
 
 .col-lg-6, col-sm-12  {
 	padding-right: 0px !important;
 	padding-left: 0px !important;
 }
-
-//.row > div {
-	//display: block;
-	//width: 100%;
-//}
 
 %divCell {
 	border: 1px solid $color;

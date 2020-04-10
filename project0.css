@@ -60,25 +60,6 @@ h2::before {
   height: 100%;
 }
 
-/*
-ul {
-    font-size: 14px;
-    color: $color2;
-	font-style: normal;
-}
-
-ol {
-	font-style: normal;
-    font-size: 18px;
-    color: $color2;
-}
-
-.flotante {
-	align: center;
-	// float: right;
-	// margin-left:25%;
-}
-*/
 ul.menuVertical {
   list-style-type: none;
   margin: 0;
@@ -113,22 +94,6 @@ li a:hover:not(.active) {
   text-decoration: none;
 }
 
-/*
-ul.menuVertical {
-	width: 220px; 
-	list-style: none;
-	text-align: center; 
-	text-shadow: 2px 2px 4px red; 
-	padding:0;
-}
-
-ul.menuVertical li {padding: 10px 0px; border: groove $fondo2;
-border-width: 6px 6px 0px 6px; background-color: $color;}
-
-ul.menuVertical li:last-child { border-bottom: groove $fondo2; border-bottom-width: 6px;}
-ul.menuVertical li a:link, ul.menuVertical li a:visited { text-decoration: none; color:black;}
-ul.menuVertical li:hover {background-color: $colorhover;}
-*/
 table {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-collapse: collapse;
