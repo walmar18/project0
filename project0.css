@@ -167,6 +167,7 @@ tr:nth-child(even) {
 
 .divTD, .divTH {
   border: 1px solid #d23838;
+  padding: 8px;
 }
 
 .divTH {
@@ -174,15 +175,12 @@ tr:nth-child(even) {
   text-align: center;
   font-weight: bold;
   height: 41px;
-  padding: 8px;
 }
 
 .divTD {
   background-color: #fafa82;
   text-align: left;
   font-weight: normal;
-  padding: 8px;
-  height: 100%;
 }
 
 .spanIt {
@@ -208,6 +206,16 @@ tr:nth-child(even) {
   .linkVolver {
     display: block;
   }
+}
+.cardVideo {
+  background-color: #f0594e;
+  margin: 1vh 1vw 1vh 1vw;
+}
+
+.footer {
+  background-color: #f0594e;
+  margin-left: 25%;
+  text-align: center;
 }
 
 /*# sourceMappingURL=project0.css.map */
