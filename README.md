@@ -20,7 +20,9 @@ Page2.html, Page3.html and Page4.html
  
 project0.css is created with SASS from the project0.scss file
 	- Uses different CSS properties, and different types of CSS selectors according to the requirements
-	- Includes a mobile-responsive @media query to show on smaller screens the link that jumps to the top of the page.
+	- Includes mobile-responsive @media querys to:  
+		· Show on smaller screens the link that jumps to the top of the page. 
+		· Decreases font size of Nav list  items on smaller screens.
 	- Uses many SCSS variables for the colors.
 	- Uses SCSS inheritance for the cells of the table in Page1.html. Also for the cells in the Page2.html, Page3.html and Page4.html that simulates a table using the Bootstrap grid model.
 	- Uses SCSS nesting for the ul and ol contained in the index.html.

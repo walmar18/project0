@@ -70,7 +70,16 @@ ul.menuVertical {
   height: 100%;
   overflow: auto;
   text-shadow: 2px 2px 4px #f5bc6d;
-  font-size: large;
+}
+@media (min-width: 411px) {
+  ul.menuVertical {
+    font-size: large;
+  }
+}
+@media (max-width: 410px) {
+  ul.menuVertical {
+    font-size: smaller;
+  }
 }
 
 li a {
